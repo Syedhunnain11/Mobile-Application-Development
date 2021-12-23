@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView5"
+        android:layout_width="981dp"
+        android:layout_height="152dp"
+        app:cardBackgroundColor="#F71C3895"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="959dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/contacts"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="96sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView6"
+        android:layout_width="match_parent"
+        android:layout_height="259dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.533">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="358dp"
+            android:layout_height="86dp"
+            android:layout_marginLeft="60sp"
+            android:layout_marginTop="50sp"
+            android:fontFamily="sans-serif-black"
+            android:text="Edit Contact"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="357dp"
+            android:layout_height="88dp"
+            android:layout_marginLeft="500sp"
+            android:layout_marginTop="50sp"
+            android:fontFamily="sans-serif-black"
+            android:text="Delete Contact"
+            android:textSize="30sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView4"
+        android:layout_width="961dp"
+        android:layout_height="458dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.135"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="178dp"
+            android:layout_height="46dp"
+            android:layout_marginLeft="85sp"
+            android:layout_marginTop="100sp"
+            android:text="Usama"
+            android:textColor="#100F0F"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="85sp"
+            android:layout_marginTop="175sp"
+            android:text="Wajid"
+            android:textColor="#100F0F"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="85sp"
+            android:layout_marginTop="255sp"
+            android:text="Zain"
+            android:textColor="#100F0F"
+            android:textSize="34sp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="67dp"
+            android:layout_height="57dp"
+            android:layout_marginLeft="5sp"
+            android:layout_marginTop="95sp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="72dp"
+            android:layout_height="57dp"
+            android:layout_marginLeft="4sp"
+            android:layout_marginTop="170sp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="72dp"
+            android:layout_height="61dp"
+            android:layout_marginLeft="5sp"
+            android:layout_marginTop="250sp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="352dp"
+            android:layout_height="86dp"
+            android:layout_marginLeft="5sp"
+            android:fontFamily="sans-serif-black"
+            android:text="Add New Contact"
+            android:textSize="30sp" />
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
